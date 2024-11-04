@@ -19,7 +19,7 @@
     "strictPropertyInitialization": false,
     "paths": {
       "@/*": [
-        "./src/*"
+        "./app/*"
       ]
     },
     "plugins": [

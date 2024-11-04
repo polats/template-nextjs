@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { IRefPhaserGame, PhaserGame } from './game/PhaserGame';
 import { MainMenu } from './game/scenes/MainMenu';
 
-function App()
+function PhaserApp()
 {
     // The sprite can only be moved in the MainMenu Scene
     const [canMoveSprite, setCanMoveSprite] = useState(true);
@@ -101,4 +101,4 @@ function App()
     )
 }
 
-export default App
+export default PhaserApp
